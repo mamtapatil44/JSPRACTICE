@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.card p {
+    margin: 0 10px 10px;
+}
+.sercah-btn{
+    margin:  0 0 2px;
+    padding: 2px;
+    color: black;
+}
