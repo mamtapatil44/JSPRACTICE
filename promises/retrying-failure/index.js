@@ -21,8 +21,6 @@ const fetchWithRetry =(url,retires =3 ,delay)=>{
                 
             }
         })
-    
-
 }
 
 
